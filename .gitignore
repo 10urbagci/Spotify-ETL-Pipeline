@@ -1,0 +1,11 @@
+#env
+.env
+
+#csv
+acdc_spotify_data.csv
+
+#config
+config.ini
+
+#cache
+.cache
