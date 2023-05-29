@@ -1,4 +1,4 @@
-# Spotify ETL Pipeline
+
 <h1>Pipeline Flowchart</h1>
 
 <img src = "img/project_arc.png">
