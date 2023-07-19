@@ -10,3 +10,9 @@ config.ini
 
 #cache
 .cache
+
+#Airflow's file
+dags
+logs
+plugins
+config
