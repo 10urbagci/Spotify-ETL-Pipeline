@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 
-def fetch_spotify_data():
+def extract_spotify_data():
     load_dotenv()
 
     CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
@@ -93,4 +93,4 @@ def fetch_spotify_data():
     # Save to CSV file
     df.to_csv('acdc_spotify_data.csv', index=False)
 
-fetch_spotify_data()
+extract_spotify_data()

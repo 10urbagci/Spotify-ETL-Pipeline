@@ -1,6 +1,6 @@
 import pandas as pd
 
-def clean_data(file_path):
+def transform_data(file_path):
     
     df = pd.read_csv(file_path)
 
@@ -17,4 +17,4 @@ def clean_data(file_path):
     df.to_csv(file_path, index=False)
 
 file_path = 'acdc_spotify_data.csv'
-clean_data(file_path)
+transform_data(file_path)
